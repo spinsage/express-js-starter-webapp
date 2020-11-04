@@ -1,3 +1,4 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/f5fd700a51d64f02b478e3cf829fa732)](https://app.codacy.com/gh/spinsage/express-js-starter-webapp?utm_source=github.com&utm_medium=referral&utm_content=spinsage/express-js-starter-webapp&utm_campaign=Badge_Grade)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 # Express Web Application Starter
