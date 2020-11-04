@@ -1,0 +1,14 @@
+{
+    "watch": ["src", "views", "index.js"], 
+    "exec": "node index.js", 
+    "ext": "js|hbs|handlebars",
+    "ignore": [ 
+        "*.css",
+        "*.html",
+        "*.jpg",
+        "*.png",
+        "*.ttf",
+        "public/assets"
+    ],
+    "verbose": true
+}

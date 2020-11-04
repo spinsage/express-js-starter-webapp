@@ -1,0 +1,36 @@
+{
+  "name": "express-js-starter-webapp",
+  "version": "1.0.0",
+  "description": "Boilerplate project for bootstrapping development of a Web application with NodeJS and ExpressJS.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev:start": "nodemon",
+    "lint": "eslint index.js src/**"
+  },
+  "sourceType": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spinsage/express-js-starter-webapp.git"
+  },
+  "keywords": [
+    "express",
+    "boilerplate",
+    "webapp"
+  ],
+  "author": "spinsage",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/spinsage/express-js-starter-webapp/issues"
+  },
+  "homepage": "https://github.com/spinsage/express-js-starter-webapp#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-standard": "^16.0.1",
+    "nodemon": "^2.0.6"
+  }
+}
