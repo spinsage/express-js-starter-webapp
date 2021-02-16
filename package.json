@@ -26,7 +26,7 @@
   "homepage": "https://github.com/spinsage/express-js-starter-webapp#readme",
   "dependencies": {
     "express": "^4.17.1",
-    "express-handlebars": "^5.2.0"
+    "express-handlebars": "^5.2.1"
   },
   "devDependencies": {
     "eslint": "^7.14.0",
