@@ -4,6 +4,7 @@
 [![Black Duck Security Risk](https://copilot.blackducksoftware.com/github/repos/spinsage/express-js-starter-webapp/branches/main/badge-risk.svg)](https://copilot.blackducksoftware.com/github/repos/spinsage/express-js-starter-webapp/branches/main)
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/spinsage/express-js-starter-webapp.svg)](http://isitmaintained.com/project/spinsage/express-js-starter-webapp "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/spinsage/express-js-starter-webapp.svg)](http://isitmaintained.com/project/spinsage/express-js-starter-webapp "Percentage of issues still open")
+[![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/spinsage/community)
 
 # Express Web Application Starter
 Boilerplate project for bootstrapping development of a Web application with NodeJS and ExpressJS.
