@@ -1,6 +1,10 @@
 {
-    "watch": ["src", "views", "index.js"], 
-    "exec": "node index.js", 
+    "watch": [
+        "src",
+        "views",
+        "app.js"
+    ],
+    "exec": "node app.js",
     "ext": "js|hbs|handlebars",
     "ignore": [ 
         "*.css",

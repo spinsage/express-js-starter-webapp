@@ -2,11 +2,11 @@
   "name": "express-js-starter-webapp",
   "version": "1.0.0",
   "description": "Boilerplate project for bootstrapping development of a Web application with NodeJS and ExpressJS.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node app.js",
     "start-dev": "nodemon",
-    "lint": "eslint index.js src/**"
+    "lint": "eslint app.js src/**"
   },
   "sourceType": "module",
   "repository": {
@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/spinsage/express-js-starter-webapp#readme",
   "dependencies": {
+    "dotenv": "^10.0.0",
     "express": "^4.17.2",
     "express-handlebars": "^6.0.2"
   },
