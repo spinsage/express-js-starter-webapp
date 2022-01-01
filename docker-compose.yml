@@ -1,0 +1,12 @@
+version: "3.9"
+services:
+  app:
+    container_name: express-app
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: express-app
+    restart: always
+    ports:
+      - "3001:${SERVER_PORT}"  
+
