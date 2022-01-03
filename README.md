@@ -5,15 +5,57 @@
 [![Average time to resolve an issue](http://isitmaintained.com/badge/resolution/spinsage/express-js-starter-webapp.svg)](http://isitmaintained.com/project/spinsage/express-js-starter-webapp "Average time to resolve an issue")
 [![Percentage of issues still open](http://isitmaintained.com/badge/open/spinsage/express-js-starter-webapp.svg)](http://isitmaintained.com/project/spinsage/express-js-starter-webapp "Percentage of issues still open")
 [![Gitter chat](https://badges.gitter.im/gitterHQ/gitter.png)](https://gitter.im/spinsage/community)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 # Express Web Application Starter
+
 Boilerplate project for bootstrapping development of a Web application with NodeJS and ExpressJS.
 
-# LICENSE
-**Express Web Application Starter** is Apache 2-licensed.
-<br><br>
+## Getting Started
 
-# Let us know!
+### Clone the repository
+
+```console
+git clone https://github.com/spinsage/express-js-starter-webapp.git
+```
+
+### Install dependencies
+
+```console
+npm install
+```
+
+### Configure environment variables
+
+- Create a .env file by copying .env.sample.
+- Update environment variable values in the .env file as needed.
+
+### Run the application
+
+#### For development
+
+```console
+npm run start-dev
+```
+
+#### For deployment
+
+```console
+npm run start
+```
+
+#### Within a Docker container
+
+```console
+docker-compose up
+```  
+
+## LICENSE
+
+**Express Web Application Starter** is Apache 2-licensed.
+
+## Let us know!
+
 We at [**Spinsage**](https://www.spinsage.com/) would be happy if you send us links to your projects where you are using our code. Just send us an email at opensource@spinsage.com.
 
 And do let us know if you have any queries or suggestions regarding our work.
