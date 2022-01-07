@@ -1,14 +1,14 @@
 require('dotenv').config();
 const express = require('express');
-const expresshbs = require('express-handlebars');
+const expressHbs = require('express-handlebars');
 
-const app = express();
+const app = module.exports = express();
 const appRoutes = require('./src/routes');
 
 app.use('/', appRoutes);
 app.use(express.static('public'))
 
-const hbs = expresshbs.create({
+const hbs = expressHbs.create({
     partialsDir: [
         'views/partials/'
     ]
@@ -18,8 +18,10 @@ app.set('view engine', 'handlebars');
 app.disable('x-powered-by');
 
 const PORT = process.env.PORT || 3001;
-app.listen(PORT, () => {
-    console.log(`Server listening on port ${PORT}`);
-});
+if (!module.parent) {
+    app.listen(PORT, () => {
+        console.log(`Server listening on port ${PORT}`);
+    });
+}
 
 
