@@ -27,7 +27,7 @@
   "homepage": "https://github.com/spinsage/express-js-starter-webapp#readme",
   "dependencies": {
     "dotenv": "^16.0.0",
-    "express": "^4.17.3",
+    "express": "^4.18.0",
     "express-handlebars": "^6.0.3",
     "winston": "^3.7.2"
   },
